@@ -1,0 +1,415 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navheader{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+nav ul li{
+    display: inline-block;
+    padding-right: 30px;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    background: orangered;
+    transition: 0.3s;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo::first-letter{
+    font-size: 35px;
+    color: orangered;
+    border: 2px solid orangered;
+    border-right: transparent;
+}
+.navbtn{
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navbtn:hover{
+    background-color: white;
+    color: orangered;
+}
+.home{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+}
+.home h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 80px;
+}
+.home h1 span{
+    font-size: 70px;
+    color: orangered;
+}
+.home p{
+    color: orangered;
+    width: 60%;
+    font-size: 22px;
+    line-height: 30px;
+    padding-top: 10px;
+}
+.hello{
+    font-weight: 800;
+    background-color: white;
+    color: orangered;
+    line-height: 4;
+    padding: 10px;
+    border-radius: 20px;
+}
+.hello:hover{
+    background: orangered;
+    color: white;
+}
+.image{
+    position: absolute;
+    top: 20%;
+    left: 65%;
+}
+.image img{
+    border-radius: 50%
+}
+.aboutme{
+    width: 100dvw;
+    height: 100vh;
+    background-color: rgb(37, 34, 34);
+    padding-top: 9%;
+    padding-left: 45%;
+}
+.head3{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10;
+}
+.head3 span{
+    color: orangered;
+}
+.head1{
+    font-weight: 800;
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: white;
+}
+.head1 span{
+    color: orangered;
+}
+.p1{
+    font-size: 22px;
+    width: 70%;
+    padding-right: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+.button{
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 4;
+    padding: 10px;
+    border-radius: 20px;
+}
+.button:hover{
+        background-color: white;
+        color: orangered;
+}
+.image2{
+    position: absolute;
+    top: 118%;
+    right: 63%;
+}
+.image2 img{
+    border-radius: 50%;
+}
+.service{
+    width: 100dvw;
+    height: 100dvh;
+    background: rgb(50, 49, 49);
+    display: flex;
+    justify-content: space-evenly;
+}
+.service h1{
+    position: absolute;
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 6%;
+    text-align: center;
+    color: orangered;
+}
+.box{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(196, 56, 5);
+    margin-top: 15%;
+    border-radius: 10%;
+    text-align: center;
+}
+.box img{
+    height: 70px;
+    width: 70px;
+    margin: 15px 0px;
+}
+.box h3{
+    font-weight: 900;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 20px;
+}
+.box p{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    align-items: center;
+}
+.boxbtn{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.boxbtn:hover{
+    background-color: white;
+    color: black;
+}
+.container{
+    width: 100dvw;
+    height: 100dvh;
+    display: grid;
+    background-color: rgb(20, 3, 3);
+    box-sizing: border-box
+    padding: 15px 9%;
+    padding-bottom: 20px;
+}
+.container .heading{
+    color: orangered;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.container .boxcontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2px;
+}
+.container .box2 img{
+    padding: 5px 3px;
+    width: 80%;
+    height: 100%;
+    border: 5px solid white;
+    border-spacing: 5px;
+    border-radius: 30px;
+}
+.picture{
+    width: 100dvw;
+    height: 100vh;
+    background-color: rgb(40, 37, 37);
+    text-align: center;
+    }
+    .picture img{
+        width: 360px;
+        height: 260px;
+        border: 10px solid orangered;
+        border-radius: 20px;
+        margin: 20px;
+        transition: border-color 0.3s;
+
+    }
+
+    .pichead{
+        font-family: cursive;
+        font-size: 40px;
+        color: orangered;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    
+    
+}
+.container h1{
+    color: orangered;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    padding-left: 45%;
+    padding-top: 8%;
+
+}
+.container form{
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    left: 48%;
+    padding-top: 15%
+
+}
+
+.container label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.container input, .container textarea{
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    background: #444;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.container button{
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    padding: 15px;
+    background: #e8491d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+
+.container button:hover{
+    background: white;
+    color: orangered;
+}
+
+
+.container2{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+} 
+
+.image3{
+    position: absolute;
+    padding-top: 7%;
+    left: 20%;
+}
+.image3 img{
+    border-radius: 50%;
+}
+.hireme{
+    position: absolute;
+    top: 630px;
+    right: 42%;
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.hireme:hover{
+    background-color: white;
+    color: orangered;
+}
+.contactme{
+    width: 100%;
+    height: 290px;background-color: rgb(44, 41, 41);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactme p{
+    font-family: cursive;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contactbtn{
+    background-color: orangered;
+    font-family: cursive;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+.contactbtn:hover{
+    background-color: white;
+    color: orangered;
+}
+    
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-icon {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-icon:hover {
+    color: orangered;
+}
+
+
+
